@@ -17,7 +17,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 25,
-  "iteration": 1623663673398,
+  "iteration": 1623747717082,
   "links": [],
   "panels": [
     {
@@ -112,6 +112,24 @@
           "link": false,
           "mappingType": 1,
           "pattern": "job_name",
+          "thresholds": [],
+          "type": "string",
+          "unit": "bytes"
+        },
+        {
+          "alias": "User",
+          "align": "auto",
+          "colorMode": null,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "decimals": 0,
+          "link": false,
+          "mappingType": 1,
+          "pattern": "job_user",
           "thresholds": [],
           "type": "string",
           "unit": "bytes"
@@ -1356,7 +1374,7 @@
       }
     }
   ],
-  "refresh": "15s",
+  "refresh": "5s",
   "schemaVersion": 25,
   "style": "dark",
   "tags": [],
@@ -1475,5 +1493,5 @@
   "timezone": "",
   "title": "GRAPEVINE HPC Job and Partition metrics (sent by HPC SLURM exporter)",
   "uid": "JSu0321Ns",
-  "version": 2
+  "version": 3
 }
